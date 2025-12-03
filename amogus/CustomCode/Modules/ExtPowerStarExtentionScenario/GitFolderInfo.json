@@ -1,0 +1,7 @@
+{
+  "Version": 1,
+  "Files": [
+    "include/ExtPowerStar.h",
+    "source/ExtPowerStar.cpp"
+  ]
+}

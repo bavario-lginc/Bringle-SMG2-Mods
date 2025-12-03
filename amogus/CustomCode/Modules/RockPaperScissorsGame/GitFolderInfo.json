@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Files": [
+    "include/HamburgerHelperNPC.h",
+    "include/RPSMgr.h",
+    "include/RPSPanel.h",
+    "source/HamburgerHelperNPC.h",
+    "source/RPSMgr.h",
+    "source/RPSPanel.h"
+  ]
+}

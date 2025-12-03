@@ -1,0 +1,17 @@
+{
+  "Name": "CometTimerObj",
+  "Author": "Evanbowl",
+  "Description": "PTD: Comet Timer Creator",
+  "InstallDependencies": ["Syati_ObjectFactories"],
+  "ModuleData" : [
+    {
+      "NameObjFactory" : [
+        {
+          "Name" : "CometTimerObj",
+          "Function" : "createExtActor<CometTimerObj>",
+          "Include" : "CometTimerObj.h"
+        }
+      ]
+    }
+  ]
+}

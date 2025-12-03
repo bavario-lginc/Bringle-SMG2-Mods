@@ -1,0 +1,15 @@
+{
+  "Name": "GoonerGuyNPC",
+  "Author": "Bavario",
+  "Description": "HNG",
+  "InstallDependencies": ["Syati_ObjectFactories"],
+  "ModuleData": [{
+    "NameObjFactory" : [
+        {
+          "Name" : "GoonerGuyNPC",
+          "Function" : "createExtActor<GoonerGuyNPC>",
+          "Include" : "GoonerGuyNPC.h"
+        }
+    ]
+  }]
+}

@@ -1,0 +1,17 @@
+{
+  "Name": "Power Star Custom Color EXTENTION",
+  "Author": "Port : Myron Dragon. Author : Aurum and Evanbowl",
+  "Description": "The custom power star color used in PTD",
+  "InstallDependencies": [ "Syati_ObjectFactories", "Syati_Init" ],
+  "ModuleData" : [
+    {
+      "NameObjFactory" : [
+        {
+          "Name": "ExtPowerStar",
+          "Function": "createExtActor<PowerStar>",
+          "Include": "ExtPowerStar.h"
+        }
+      ]
+    }
+  ]
+}

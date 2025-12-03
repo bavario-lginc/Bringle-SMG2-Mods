@@ -1,0 +1,29 @@
+{
+  "Name": "Roshambo/Rock Paper Scissors Game",
+  "Author": "Bavario",
+  "Description": "RO- SHAM- BO!",
+  "InstallDependencies": ["Syati_ObjectFactories"],
+  "ModuleData": [{
+    "NameObjFactory" : [
+        {
+          "Name" : "HamburgerHelperNPC",
+          "Function" : "createExtActor<HamburgerHelperNPC>",
+          "Include" : "HamburgerHelperNPC.h"
+        },
+        {
+          "Name" : "RPSPanel",
+          "Function" : "createExtActor<RPSPanel>",
+          "Include" : "RPSPanel.h"
+        }
+    ]
+  },
+  {
+    "SceneObjHolder": [
+      {
+        "Name": "71",
+        "Function": "createRPSManager",
+        "Include": "RPSMgr.h"
+      }
+    ]
+  }]
+}

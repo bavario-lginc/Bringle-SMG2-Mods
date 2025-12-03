@@ -1,0 +1,9 @@
+{
+  "Version": 1,
+  "Files": [
+    "include/BringleMods.h",
+    "include/InfernoMario.h",
+    "include/InfernoMarioGenerator.h",
+    "source/BringleMods.cpp"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "Modules": [
+    "BringleMods",
+    "CometTimerObj",
+    "DeathCounter",
+    "ExtPowerStarExtentionScenario",
+    "GoonerGuyNPC",
+    "MorphFooAndIce",
+    "PlayerFollowActor",
+    "RockPaperScissorsGame",
+    "Syati_CommonFunctionHooks",
+    "Syati_Init",
+    "Syati_ObjectFactories",
+    "MinorPatches",
+    "PTUtils",
+    "RetroSystem"
+  ],
+  "ModulesPath": "Modules",
+  "OutputPath": ".",
+  "Regions": [
+    "USA",
+    "PAL",
+    "JPN",
+    "KOR",
+    "TWN"
+  ],
+  "Unibuild": "Never",
+  "Tasks": []
+}

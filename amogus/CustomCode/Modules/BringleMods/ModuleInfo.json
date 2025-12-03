@@ -1,0 +1,16 @@
+{
+  "Name": "Bringle Mods",
+  "Author": "Bavario",
+  "Description": "Miscellaneous mods that were used for Bringle's livestreams and videos of SMG2.",
+  "InstallDependencies": ["Syati_Init", "Syati_CommonFunctionHooks"],
+  "CompilerFlags": ["-DINFERNO_SPAWN_AUTOMATICALLY"],
+  "ModuleData": [{
+    "OnGameSceneUpdate" : [
+        {
+          "Name" : "updateInferno",
+          "Function" : "updateInferno",
+          "Include" : "BringleMods.h"
+        }
+    ]
+  }]
+}
