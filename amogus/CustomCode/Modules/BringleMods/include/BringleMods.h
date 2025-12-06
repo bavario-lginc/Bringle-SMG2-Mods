@@ -1,7 +1,6 @@
 #pragma once
 
 #include "syati.h"
-#include "InfernoMarioGenerator.h"
 
 void initInferno();
 
